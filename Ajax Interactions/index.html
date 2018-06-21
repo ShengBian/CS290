@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax Interactions</title>
+</head>
+<body>
+    <form>
+        <p>Please enter the city name or the zip code and click submit, it will show the weather information</p>
+        <label for="cityName">City Name: </label><input type="text" name="cityName" id="cityName">
+        <label for="zipCode">Zip Code: </label><input type="text" name="zipCode" id="zipCode">
+        <input type="submit" id="submitWeather">
+    </form>
+    <div>
+        <h2>Weather Information</h2>
+        <ul>
+            <li><span>Temperature:  </span><span id="temp"></span></li>
+            <li><span>Atmospheric pressure:  </span><span id="pressure"></span></li>
+            <li><span>Humidity:  </span><span id="humidity"></span></li>
+            <li><span>Minimum temperature:  </span><span id="temp_min"></span></li>
+            <li><span>Maximum temperature:  </span><span id="temp_max"></span></li>
+        </ul>
+    </div>
+
+    <p>Please enter your personal information and click submit</p>
+    <label for="cityName">Name: </label><input type="text" name="userName" id="userName">
+    <label for="zipCode">University: </label><input type="text" name="university" id="university">
+    <label for="zipCode">Major: </label><input type="text" name="major" id="major">
+    <input type="submit" id="submitPersonInfo">
+    <div>
+        <h2>Personal Information</h2>
+        <ul>
+            <li><span>Name:  </span><span id="nameResult"></span></li>
+            <li><span>University:  </span><span id="universityResult"></span></li>
+            <li><span>Major:  </span><span id="majorResult"></span></li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

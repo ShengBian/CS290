@@ -1,0 +1,41 @@
+table {
+    border-style: solid;
+}
+
+th, td {
+    border-style: solid;
+}
+
+tbody tr:nth-child(2), tbody tr:nth-child(4) {
+    background-color: yellow;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: greenyellow;
+}
+
+.outer-content {
+    width: 75%;
+    margin-top: 20px;
+    margin-left: 0px;
+    background-color: pink;
+    padding: 15px;
+}
+
+.inner-content {
+    width: 75%;
+    text-align: center;
+    background-color: #88d3ff;
+    margin: auto;
+}
+
+form {
+    margin: 20px auto;
+}
+
+.information {
+    border: 1px solid black;
+    padding: 5px;
+    display: block;
+}
+

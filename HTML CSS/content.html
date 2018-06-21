@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>HW Assignment: HTML/CSS</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <table>
+            <caption>Programming Books Recommended for Beginners</caption>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Author</th>
+                    <th>ISBN-13</th>
+                    <th>Originally Published</th>
+                    <th>Publisher</th>
+                    <th>Language</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><em>Assembly Language for X86 Processors (7th Edition)</em></td>
+                    <td>Kip R. Irvine</td>
+                    <td>978-0133769401</td>
+                    <td>March 11 2014</td>
+                    <td>Pearson</td>
+                    <td>English</td>
+                </tr>
+                <tr>
+                    <td><em>The C++ Programming Language (4th Edition)</em></td>
+                    <td>Bjarne Stroustrup</td>
+                    <td>978-0321563842</td>
+                    <td>May 9 2013</td>
+                    <td>Addison-Wesley Professional</td>
+                    <td>English</td>
+                </tr>
+                <tr>
+                    <td><em>Data Structures and Algorithms in Java</em></td>
+                    <td>Robert Lafore</td>
+                    <td>978-0672324536</td>
+                    <td>Nov. 6 2002</td>
+                    <td>Sams Publishing</td>
+                    <td>English</td>
+                </tr>
+                <tr>
+                    <td><em>Web Design with HTML, CSS, JavaScript and jQuery Set</em></td>
+                    <td>Jon Duckett</td>
+                    <td>978-1118907443</td>
+                    <td>July 8 2014</td>
+                    <td>Wiley</td>
+                    <td>English</td>
+                </tr>
+                <tr>
+                    <td><em>JavaScript: The Good Parts</em></td>
+                    <td>Douglas Crockford</td>
+                    <td>978-0596517748</td>
+                    <td>May 18 2008</td>
+                    <td>Yahoo Press</td>
+                    <td>English</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Footer 1</td>
+                    <td colspan="4">Footer 2</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>In order to succeed in CS290, you need to do the following steps:</p>
+        <ol>
+            <li>Do the assigned readings</li>
+            <li>Watch the lecture</li>
+            <li>Complete the assignment</li>
+            <li>Ace the exam</li>
+        </ol>
+
+        <div class="outer-content">
+            <div class="inner-content">
+                This is the content
+            </div>
+        </div>
+
+        <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="get">
+            <fieldset>
+                <legend>Your Personal Information:</legend>
+                <label class="information">Name:
+                    <input type="text" name="text_input" size="30" maxlength="100">
+                </label>
+                <br>
+                <label class="information">Age:
+                    <input type="number" name="numerical_input" size="30">
+                </label>
+                <br>
+                <label class="information">Password:
+                    <input type="password" name="password_input" size="30" maxlength="100">
+                </label>
+                <p class="information">Please select your favourite candy<br>
+                    <label>
+                        <input type="radio" name="candy" value="Snickers">Snickers</label><br>
+                    <label>
+                        <input type="radio" name="candy" value="Skittles">Skittles</label><br>
+                    <label>
+                        <input type="radio" name="candy" value="Mentos">Mentos</label>
+                </p>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+
+
+        <form action="http://classes.engr.oregonstate.edu/eecs/winter2015/cs290-400/tools/class-content/form_tests/check_request.php" method="post">
+            <fieldset>
+                <legend>Your Personal Information:</legend>
+                <label class="information">Name:
+                    <input type="text" name="text_input" size="30" maxlength="100">
+                </label>
+                <br>
+                <label class="information">Age:
+                    <input type="number" name="numerical_input" size="30">
+                </label>
+                <br>
+                <label class="information">Password:
+                    <input type="password" name="password_input" size="30" maxlength="100">
+                </label>
+                <p class="information">Please select your favourite candy<br>
+                    <label>
+                        <input type="radio" name="candy" value="Snickers">Snickers</label><br>
+                    <label>
+                        <input type="radio" name="candy" value="Skittles">Skittles</label><br>
+                    <label>
+                        <input type="radio" name="candy" value="Mentos">Mentos</label>
+                </p>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Sheng Bian">
+    <title>The Program</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/program.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</head>
+<body>
+    <!-- All images in my project comes from https://www.pexels.com/, which is free for personal and commercial use! -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="homepage.html">Sheng's MBA</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="program.html">The Program</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admission.html">Admission Requirements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row my-4">
+            <div class="col-md-8">
+                <h1>The Program</h1>
+                <p>
+                    Sheng's MBA program gives you the opportunity to explore career options while developing your business acumen through real-world experience.
+                    Using our relationships with some of Canada&#8217;s best employers, we developed a new curriculum. It gives you the modern business skills you need along with the opportunity to apply them during three paid work terms. If you graduated from a North American university, you don&#8217;t need work experience to apply. You get the experience you need while completing your degree.
+                </p>
+                <!-- This video comes from laurier MBA website, the address is https://lazaridismba.ca/why-lazaridis/integrated-core-mba-programs-in-canada/ -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/HTJrc6z5fkw?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                <br><br>
+                <h2>Curriculum</h2>
+                <h4>Foundation (First 6 Months)</h4>
+                <p>The Foundations curriculum is comprised of ten courses plus an integrative project that runs through the entire six months.</p>
+                <ul>
+                    <li>Financial Accounting</li>
+                    <li>Business Analytics</li>
+                    <li>Professional Communication Skills</li>
+                    <li>Negotiations</li>
+                    <li>Leadership</li>
+                    <li>Strategy</li>
+                    <li>Economics</li>
+                    <li>Finance</li>
+                    <li>Managing Human Capital</li>
+                    <li>Operations</li>
+                    <li>Marketing</li>
+                    <li>Managing Information Technology</li>
+                    <li>Business, Government and Global Economy</li>
+                </ul>
+                <h4>Specialization (Second 6 Months)</h4>
+                <p>For the Specialization module, you may choose from several areas of specialization, for which you will complete a series of core courses and elective courses. Upon completion of this module you will have earned a Sheng’s MBA and a Graduate Certificate in your area of specialization.</p>
+                <ul>
+                    <li><button id="consulting" class="course">Consulting</button></li>
+                    <li><button id="entrepreneurship" class="course">Entrepreneurship & Innovation</button></li>
+                    <li><button id="information" class="course">Information Systems</button></li>
+                </ul>
+
+                <div id="consulting-description" class="modal">
+                    <div class="modal-content">
+                        <span class="text-right" id="close1">&times;</span>
+                        <h4>Specialization: Consulting</h4>
+                        <p>Consulting is another favourite choice, perhaps a dream destination for some. The high profile jobs offering fantastic salaries with perks and the opportunity to travel places is primarily responsible for the allure surrounding this profession.</p>
+                        <p>Consultants are hired when an outsiders’ opinion and expertise is needed to provide solutions to specific problems or challenges faced by the organisation or take charge of projects that may be beyond the capacity of the internal staff.</p>
+                        <p>There are various sectors related to the consulting profession including the more popular ones like strategy consulting, IT/technology consulting, operations consulting, boutique consulting to the lesser known areas like HR, investments, public relations/media, education or advertising.</p>
+                    </div>
+                </div>
+
+                <div id="entrepreneurship-description" class="modal">
+                    <div class="modal-content">
+                        <span class="text-right"  id="close2">&times;</span>
+                        <h4>Specialization: Entrepreneurship & Innovation</h4>
+                        <p>This concentration involves developing the knowledge and strategic skills and business concepts for launching your own start-up and networking with others with an entrepreneurial vision. Entrepreneurs face the challenging task of building a business model with the available limited resources.</p>
+                        <p> The curriculum combines theory with real-world projects so that you are aware of the possible roadblocks and know ways to successfully handle different situations and take the right decisions.</p>
+                        <p> You would be able to use your creativity and analytically assess the market scenario to create a business plan. You would be able to interact with successful entrepreneurs and learn from their successes and failures.</p>
+                    </div>
+                </div>
+
+                <div id="information-description" class="modal">
+                    <div class="modal-content">
+                        <span class="text-right" id="close3">&times;</span>
+                        <h4>Specialization: Information Systems</h4>
+                        <p>The use of technology has extended to almost every sector and industry which is why there’s a growing demand for professionals with a combination of business and advanced technical expertise.</p>
+                        <p>The specialisation would help you to efficiently manage e-commerce so that you have a thorough understanding of the changes in the competitive business environment; you’d have gained the technical knowledge of emerging technologies in the IT field.</p>
+                        <p>The various areas that may be covered in this specialisation include systems analysis, network security, data analytics, supply chain management, e-business along with managerial decision-making as well as project management.</p>
+                    </div>
+                </div>
+
+                <p>You may choose not to specialize and select courses from multiple specializations to complete your MBA. However, only those who complete a specialization will receive a Graduate Certificate.</p>
+                <h2>Double Degree MBA & Master of Finance</h2>
+                <p id="double-degree">
+                    Our double degree program, the Master of Business Administration and the Master of Finance is a full content degree that attracts keen analytical minds. This combination program provides candidates with the strategic
+                    leadership skills of the MBA, and the full breadth and depth of the Master of Finance degree, which provides technical “must-haves” for a career in asset management and investment banking.
+                    The Sheng's Double Degree program is unique in Canada. No other degree program of this calibre exists. We provide you with the curriculum  as well as the full content for two Master level degrees. The effectiveness of our program is evident by the calibre of leadership roles our graduates hold in business.
+                    The program is designed for working professionals and requires two years of full-time study to complete. The summer months of July and August are always free of classes to allow for vacation and free time. The MBA degree requires the completion of the 10-core courses, plus the Applied Research Consulting project plus 20 elective courses of your choosing. Students are also encouraged to participate in the International summer study program, which offers them a course credit in the MBA degree.
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <img class="img-fluid rounded" src="images/TheProgram.jpeg" alt="The Program">
+                <br><br>
+                <a class="btn btn-lg btn-secondary btn-block" href="brochure/brochure.pdf" target="_blank">Download Our Brochure</a><br>
+                <h4>Partner Business Schools</h4>
+                <ul>
+                    <li><a href="https://www.hbs.edu/">Hardvard Business School</a></li>
+                    <li><a href="http://mitsloan.mit.edu/">MIT Sloan School of Management</a></li>
+                    <li><a href="https://www.chicagobooth.edu/">Booth School of Business</a></li>
+                    <li><a href="http://www.hec.edu/">HEC Paris</a></li>
+                    <li><a href="https://www.gsb.stanford.edu/">Stanford Graduate School of Business</a></li>
+                    <li><a href="https://www.london.edu/">London Business School</a></li>
+                </ul>
+
+                <div class="text-center right-bar">
+                    <h2 class="h1"><sup>#</sup>1</h2>
+                    <p>in the World<br />for Employment Success</p>
+                </div>
+                <br>
+
+                <div class="text-center right-bar">
+                    <h2 class="h1"><sup>#</sup>1</h2>
+                    <p>in the World<br />for Career Progression</p>
+                </div>
+            </div>
+         </div>
+    </div>
+
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <div class="row">
+                <!-- Google Map -->
+                <div class="col-lg-6 mb-4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2947.921383712472!2d-71.12432988471555!3d42.36551467918654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e379d52f892431%3A0x8f11eee406b3f283!2sHarvard+Business+School!5e0!3m2!1sen!2sca!4v1520129346324" width="500" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <!-- Contact Details -->
+                <div class="col-lg-6 mb-4">
+                    <h3>Contact Details</h3>
+                    <a href="https://www.facebook.com/HarvardHBX/">
+                        <i class="fab fa-facebook-square fa-3x fa-fw"></i>
+                    </a>
+                    <a href="https://www.instagram.com/harvardhbs/">
+                        <i class="fab fa-instagram fa-3x fa-fw"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/school/harvard-business-school/">
+                        <i class="fab fa-linkedin fa-3x fa-fw"></i>
+                    </a>
+                    <p>
+                        <br>
+                        Sheng's Business School<br>
+                        Boston, MA 02163<br><br>
+                        Phone: +1 617-495-6000<br><br>
+                        Email: bians@oregonstate.edu<br><br>
+                        Open Hours: Monday - Friday: 9:00 AM to 5:00 PM
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/course-description.js"></script>
+
+</body>
+</html>

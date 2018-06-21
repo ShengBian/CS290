@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Sheng Bian">
+    <title>Contact Us</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+</head>
+<body>
+    <!-- All images in my project comes from https://www.pexels.com/, which is free for personal and commercial use! -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="homepage.html">Sheng's MBA</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="program.html">The Program</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admission.html">Admission Requirements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mb-4">
+                <h3>Send us a Message</h3>
+                <form  action="thankyou.html">
+                    <div class="control-group form-group">
+                            <label>First Name:</label>
+                            <input type="text" class="form-control" id="firstName" required>
+                    </div>
+                    <div class="control-group form-group">
+                        <label>Last Name:</label>
+                        <input type="text" class="form-control" id="lastName" required>
+                    </div>
+                    <div class="control-group form-group">
+                        <label>Phone:</label>
+                        <input type="text" class="form-control" id="phone" required>
+                    </div>
+                    <div class="control-group form-group">
+                        <label>Email:</label>
+                        <input type="text" class="form-control" id="email" required>
+                    </div>
+                    <div class="control-group form-group">
+                        <label>City:</label>
+                        <input type="text" class="form-control" id="city" required>
+                    </div>
+                    <div class="control-group form-group">
+                        <label>Country:</label>
+                        <input type="text" class="form-control" id="country" required>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Message:</label>
+                            <textarea rows="10" cols="100" class="form-control" id="message" required maxlength="999"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="sendMessageButton">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br>
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <div class="row">
+                <!-- Google Map -->
+                <div class="col-lg-6 mb-4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2947.921383712472!2d-71.12432988471555!3d42.36551467918654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e379d52f892431%3A0x8f11eee406b3f283!2sHarvard+Business+School!5e0!3m2!1sen!2sca!4v1520129346324" width="500" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <!-- Contact Details -->
+                <div class="col-lg-6 mb-4">
+                    <h3>Contact Details</h3>
+                    <a href="https://www.facebook.com/HarvardHBX/">
+                        <i class="fab fa-facebook-square fa-3x fa-fw"></i>
+                    </a>
+                    <a href="https://www.instagram.com/harvardhbs/">
+                        <i class="fab fa-instagram fa-3x fa-fw"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/school/harvard-business-school/">
+                        <i class="fab fa-linkedin fa-3x fa-fw"></i>
+                    </a>
+                    <p>
+                        <br>
+                        Sheng's Business School<br>
+                        Boston, MA 02163<br><br>
+                        Phone: +1 617-495-6000<br><br>
+                        Email: bians@oregonstate.edu<br><br>
+                        Open Hours: Monday - Friday: 9:00 AM to 5:00 PM
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+    "name": "get-and-post-checker",
+    "version": "1.0.0",
+    "description": "Week 7 Homework Assignment for CS290",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Sheng Bian",
+    "license": "ISC",
+    "dependencies": {
+      "body-parser": "^1.13.3",
+      "express": "^4.13.2",
+      "express-handlebars": "^3.0.0"
+    }
+  }

@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 mb-4">
+        <h1>Edit</h1>
+
+        <form action=http://flip3.engr.oregonstate.edu:4563/update>
+            <label style="display: none">
+                <input id="id_in" type="number" name="id" value={{id}}>
+            </label>
+            <label class="control-group form-group" for="name"></label>
+            <label class="control-group form-group">Name:
+                <input id="name" type="text" name="name" value={{name}} required>
+            </label>
+            <br>
+            <label class="control-group form-group">Reps:
+                <input id ="reps_in" type="number" name="reps" value={{reps}}>
+            </label>
+            <br>
+            <label class="control-group form-group">Weight:
+                <input id ="weight_in" type="number" name="weight" value={{weight}}>
+            </label>
+            <br>
+            <label class="control-group form-group">Date:
+                <input id="date_in" type="text" name="date" value={{date}}>
+            </label>
+            <br>
+            <input id="lbs_true" type="radio" name="lbs" value="1" />Pounds</label>
+            <input id="lbs_false" type="radio" name="lbs" value="0" />Kilos</label>
+            <br><br>
+            <input type="submit" id="submit" class="btn btn-primary">
+        </form>
+        </div>
+    </div>
+</div>

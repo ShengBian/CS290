@@ -1,0 +1,54 @@
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.testimonial {
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+#testimonial1-image {
+    background-image: url('../images/testimonial1.jpg');
+}
+
+#testimonial2-image {
+    background-image: url('../images/testimonial2.jpg');
+}
+
+#testimonial3-image {
+    background-image: url('../images/testimonial3.jpg');
+}
+
+.outcome-number {
+    font-size: 80px;
+}
+.outcome-description {
+    font-size: 25px;
+}
+
+.card-title {
+    color: #007bff;
+}
+
+.feature-item {
+    margin-bottom: 30px;
+}
+
+footer {
+    color: white;
+}

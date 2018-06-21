@@ -1,0 +1,59 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 mb-4">
+        <h1>Sheng Bian Workout Exercise List</h1>
+        <form>
+            <h3>Add New Item to List:</h3>
+            <label for="name"></label>
+            <label class="control-group form-group">Name:
+                <input id="name" type="text" name="name" required>
+            </label>
+            <br>
+            <label class="control-group form-group">Reps:
+                <input id ="reps_in" type="number" name="reps" >
+            </label>
+            <br>
+            <label class="control-group form-group">Weight:
+                <input id ="weight_in" type="number" name="weight">
+            </label>
+            <br>
+            <label class="control-group form-group">Date:
+                <input id="date_in" type="text" name="date">
+            </label>
+            <br>
+            <input id="lbs_true" type="radio" name="lbs" value="true">lbs</label>
+            <input id="lbs_false" type="radio" name="lbs" value="false">kG</label>
+            <br><br>
+            <input type="submit" id="submitItems" class="btn btn-primary">  
+        </form>
+         </div>
+    </div>
+    <br><br>
+        <table id="workout_table"  class="table">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Reps</th>
+                    <th scope="col">Weight</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">lbs</th>
+                    <th scope="col">Delete</th>  
+                    <th scope="col">Edit</th>
+                </tr>
+            </thead>
+            <tbody id="workout_table_body">
+                {{#data.workouts}}
+                <tr>
+                    <td scope="row" id="id" style="display:none">{{id}}</td>
+                    <td scope="row" id="name">{{name}}</td>
+                    <td scope="row" id="reps">{{reps}}</td>
+                    <td scope="row" id="weight">{{weight}}</td>
+                    <td scope="row" id="date">{{date}}</td>
+                    <td scope="row" id="lbs">{{lbs}}</td> 
+                    <td scope="row" id="delete"> <input type="button" value="delete" onClick="deleteRow(this)"/></td>
+                    <td scope="row" id="edit"> <input type="button" value="edit" onClick="editRow(this)"/></td>
+                </tr>
+                {{/data.workouts}}
+            </tbody>
+        </table>
+</div>
